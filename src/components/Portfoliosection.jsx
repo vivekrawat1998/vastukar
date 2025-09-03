@@ -81,7 +81,7 @@ const PortfolioSection = () => {
           breakpoints={{
             380: { slidesPerView: 1.2 },
             640: { slidesPerView: 2 },
-            1024: { slidesPerView: 5.5 },
+            1024: { slidesPerView: 4.5 },
           }}
           autoplay={{
             delay: 3000,
@@ -97,7 +97,7 @@ const PortfolioSection = () => {
               className="flex justify-center py-8 sm:py-12 cursor-pointer"
               onClick={goNext} // click on the card advances slide
             >
-              <div className="transition hover:shadow-xl flex flex-col w-[90vw] max-w-xs sm:max-w-sm md:max-w-xs lg:max-w-sm xl:max-w-xs lg:w-[25vw] overflow-hidden h-full">
+              <div className="transition hover:shadow-xl flex flex-col w-[90vw] max-w-xs sm:max-w-sm md:max-w-xs lg:max-w-sm xl:max-w-xs lg:w-[20vw] overflow-hidden h-full">
                 <div className="relative ">
                   <img
                     src={item.img}

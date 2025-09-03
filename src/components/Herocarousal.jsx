@@ -52,7 +52,7 @@ const HeroSwiper = () => (
     modules={[Autoplay, EffectFade]}
     autoplay={{ delay: 5000 }}
     loop={true}
-    className="w-full h-full md:h-[90vh] relative"
+    className="w-full h-[70vh] md:h-[95vh] relative"
   >
     {slides.map((slide, index) => (
       <SwiperSlide key={index}>
